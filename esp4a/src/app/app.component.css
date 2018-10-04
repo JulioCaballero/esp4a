@@ -18,9 +18,7 @@
     float: right;
 }
 
-.barra{
-    box-sizing: border-box;
-}
+
 
 button{
     width: 70px;
@@ -42,6 +40,14 @@ body{
     padding: 0;
     margin: 0;
     background: rgba(51, 51, 51, 0.897);
-    background-size: #333;
-    background-attachment: fixed;
+}
+
+label{
+    font-size: 50px;
+    color: #fff;
+}
+
+div,header{
+    margin: 0;
+    padding: 0;
 }

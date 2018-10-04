@@ -20,16 +20,27 @@
 </ul>
  -->
  <header>
+    
     <div class="contenedor">
+   
       <div class ="contenedorBoton">
-          <button mat-button class="btnEncender">Encender</button>
-          <button mat-button class="btnApagar">Apagar</button>
+          <button mat-button class="btnEncender" (click)="ledOn()">Encender</button>
+          <button mat-button class="btnApagar" (click)="ledOff()">Apagar</button>
       </div>
       <img src="./eon65PY.png" class="logo">
       <mat-progress-bar mode="determinate" value="100" class="barra"></mat-progress-bar>
   </div>
+
  </header>
  
+ <main>
+      <mat-card-title>Universidad</mat-card-title>
+ </main>
+  
+ 
+ 
+
+
 
 
  <!-- <table >
