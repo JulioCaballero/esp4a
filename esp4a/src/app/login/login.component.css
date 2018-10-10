@@ -21,6 +21,7 @@
 .form-container {
     display: flex;
     flex-direction: column;
+    padding: 10px
 }
 
 .divider {
@@ -32,7 +33,7 @@
 }
 
 button{
-    width: 100%;
+    width: 40%;
     margin: auto;
     text-align: center;
 }
@@ -45,8 +46,17 @@ button{
     flex-direction: column;
     border-radius: 10px;
 }
-.titulo{
+.title{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, bold;
-    color: #00ACC1;
+    color: rgb(71, 71, 226);
     font-size: 70px;
+}
+.textforgotpass{   
+    color: rgb(79, 79, 248);
+    font-size: 15px;
+}
+.btoCrearcuenta{
+    
+    width: 200px;
+    
 }
