@@ -21,7 +21,7 @@
 .form-container {
     display: flex;
     flex-direction: column;
-    padding: 10px
+    padding: 40px
 }
 
 .divider {
@@ -33,15 +33,15 @@
 }
 
 button{
-    width: 40%;
+    width: 50%;
     margin: auto;
     text-align: center;
 }
 .tarjetaLogin{
     margin-top: 30px;
     margin-bottom:30px;
-    margin-right: 475px;
-    margin-left: 475px;
+    margin-right: 700px;
+    margin-left: 700px;
     display: flex;
     flex-direction: column;
     border-radius: 10px;
@@ -55,8 +55,11 @@ button{
     color: rgb(79, 79, 248);
     font-size: 15px;
 }
-.btoCrearcuenta{
-    
-    width: 200px;
-    
+.btoLogin{
+    color: white;
+    background-color: rgb(79, 79, 248);
+    font-size: 15px;
+    margin-top : 10px;
+    border-radius: 5px;
+    width: 130px;
 }
