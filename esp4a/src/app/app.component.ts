@@ -10,7 +10,7 @@ import {AngularFireDatabase} from 'angularfire2/database'
 @Component({
   selector: 'app-root',
   templateUrl: './login/login.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./login/login.component.css']
   
 })
 
