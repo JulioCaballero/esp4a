@@ -45,3 +45,8 @@ button{
     flex-direction: column;
     border-radius: 10px;
 }
+.titulo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, bold;
+    color: #00ACC1;
+    font-size: 70px;
+}

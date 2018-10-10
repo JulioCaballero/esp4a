@@ -32,14 +32,23 @@
   </div>
 </div>
 <mat-card class="tarjetaLogin">
-  <div>
-    <h1>Flicker</h1>
+  <div class="form-container">
+    <h1 class="titulo">Flicker</h1>
     <mat-form-field>
+      <label> Correo Electronico</label>
       <input id="email"
-      matInput
+      matInput placeholder="Correo Electronico"     
       formControlName="email"
-      [(ngModel)]="user.email"
-      placeholder="Enter your email" />
+      [(ngModel)]="user.email" />
     </mat-form-field>
+    <mat-form-field>
+        <input matInput placeholder="Contraseña" type="password" class="password">
+          <mat-icon matSuffix (click)="hide = !hide">
+            {{hide ? 'visibility' : 'visibility_off'}}
+          </mat-icon>
+    </mat-form-field>
+    <button mat-button type="submit" 
+                    class="mat-raised-button mat-primary" 
+                    [disabled]="!loginForm.valid">Login</button>
   </div>
 </mat-card>
