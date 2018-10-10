@@ -31,3 +31,15 @@
       </form>
   </div>
 </div>
+<mat-card class="tarjetaLogin">
+  <div>
+    <h1>Flicker</h1>
+    <mat-form-field>
+      <input id="email"
+      matInput
+      formControlName="email"
+      [(ngModel)]="user.email"
+      placeholder="Enter your email" />
+    </mat-form-field>
+  </div>
+</mat-card>

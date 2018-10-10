@@ -36,3 +36,12 @@ button{
     margin: auto;
     text-align: center;
 }
+.tarjetaLogin{
+    margin-top: 30px;
+    margin-bottom:30px;
+    margin-right: 475px;
+    margin-left: 475px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
