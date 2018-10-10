@@ -7,9 +7,12 @@ import {MatProgressBarModule} from '@angular/material/progress-bar';
 import {MatInputModule} from '@angular/material/input';
 import {MatCardModule} from '@angular/material/card';
 
+
 @NgModule({
-    imports: [MatCardModule,MatInputModule,MatButtonModule,MatCheckboxModule,MatToolbarModule,MatIconModule,MatMenuModule,MatProgressBarModule],
-    exports: [MatCardModule,MatInputModule,MatButtonModule,MatCheckboxModule,MatToolbarModule,MatIconModule,MatMenuModule,MatProgressBarModule]
+    imports: [MatCardModule,MatInputModule,MatButtonModule,MatCheckboxModule,MatToolbarModule,
+        MatIconModule,MatMenuModule,MatProgressBarModule],
+    exports: [MatCardModule,MatInputModule,MatButtonModule,MatCheckboxModule,
+        MatToolbarModule,MatIconModule,MatMenuModule,MatProgressBarModule]
 })
 
 export class MaterialModule{}

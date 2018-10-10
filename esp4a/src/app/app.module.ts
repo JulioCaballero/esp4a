@@ -8,6 +8,9 @@ import { AngularFireStorageModule } from 'angularfire2/storage';
 import { AngularFireAuthModule } from 'angularfire2/auth';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 
+import { ReactiveFormsModule } from '@angular/forms';
+
+
 
 //Animations
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
@@ -16,6 +19,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MaterialModule} from './material'
 
 import { EspService } from '../services/esp.service';
+import { LoginComponent } from './login/login.component';
 
 const config = {
   apiKey: "AIzaSyDU8wlb7HyqKd6rN4oHL_LcRnqkEs1DtbY",
@@ -29,7 +33,8 @@ const config = {
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
@@ -40,6 +45,7 @@ const config = {
     AngularFireAuthModule,
     AngularFireStorageModule,
     AngularFireDatabaseModule,
+    ReactiveFormsModule
   ],
   providers: [EspService],
   bootstrap: [AppComponent]
